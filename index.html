@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Charkianok, resume" />
+    <meta name="description" content="Сайт - резюме Черленка Дмитрия" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="Черленок Дмитрий" class="avatar" />
+
+        <div class="info-text">
+          <h1>Черленок Дмитрий</h1>
+
+          <p>
+            Мне <strong> 37 </strong> лет. Имею высшее техническое образование с
+            квалификацией
+            <strong>
+              инженер-конструктор оптико-электронных и лазерных приборов и
+              систем.
+            </strong>
+            В данный момент работаю
+            <strong> специалистом по таможенному декларированию. </strong> Я
+            самостоятельно изучаю <strong> HTML, CSS, JS </strong> и в целом
+            <strong> Front-End. </strong>
+          </p>
+
+          <p>
+            Я люблю
+            <em>
+              слушать и создавать музыку, читать книги, смотреть фильмы и
+              путешествовать
+            </em>
+          </p>
+
+          <h4>Список социальных сетей:</h4>
+          <a href="https://vk.com/id6490346" target="_blank">VK</a>
+          |
+          <a href="https://www.facebook.com/dmitry.charlianok" target="_blank"
+            >Facebook</a
+          >
+          |
+          <a href="https://t.me/CharlianokDzmitry" target="_blank">Telegram</a>
+        </div>
+      </div>
+
+      <div class="card hobby">
+        <h2>Мои хобби</h2>
+
+        <ol class="list">
+          <li>Слушать музыку</li>
+          <li>Создавать музыку</li>
+          <li>Читать книги</li>
+          <li>Смотреть фильмы</li>
+          <li>Путешествовать</li>
+        </ol>
+      </div>
+
+      <div class="card experience">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>ГЛХУ "Березинский лесхоз"</td>
+              <td>Специалист по таможенному оформлению</td>
+              <td>2010 - 2013</td>
+            </tr>
+            <tr>
+              <td>ООО "ОМА"</td>
+              <td>Специалист по таможенному оформлению 2-й категории</td>
+              <td>2013 - 2021</td>
+            </tr>
+            <tr>
+              <td>ООО "БэстПак"</td>
+              <td>Специалист по таможенному декларированию</td>
+              <td>2021 - по настоящее время</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="text" id="email" placeholder="Введите email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="33"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить!" />
+      </form>
+    </div>
+  </body>
+</html>
